@@ -88,7 +88,7 @@ class FaceRecognition:
 
                     # If there are faces found, play the video (Press the play/pause button on your keyboard)
                     # If you want to use only when the face is recognized, you should 
-                    # put your photo and move this if statement to the if statement below (if matches[best_match_index]:)
+                    # put your photo to the faces folder and move this if statement to the if statement below (if matches[best_match_index]:)
                     if self.face_locations != [] and self.is_video_active == False:
                         print('Faces found...')
                         keyboard = Controller()
